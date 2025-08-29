@@ -1,12 +1,13 @@
-# Electric-Boat
+# Portland Pudgy Project
 A project built for a company in dinghy company in Maine
 # 🚤 Portland Pudgy Development Timeline  
-*(STAR Method Storytelling)*
+<img width="2224" height="1668" alt="IMG_1237" src="https://github.com/user-attachments/assets/f04524d5-42cc-4a74-8f6c-73a19bfb0efb" />
 
 ---
 
 ## 1. Situation  
-- **What to include:**  
+- **What to include:**
+  - 
   - The origin story of the project — why it began.  
   - The problem or challenge (e.g., waterproofing electronics in a marine environment).  
   - Why the project mattered personally and professionally.  
