@@ -1,9 +1,11 @@
 # Portland Pudgy Project
 A project built for a company in dinghy company in Maine
-# 🚤 Portland Pudgy Development Timeline  
-<img width="2224" height="1439" alt="IMG_1237" src="https://github.com/user-attachments/assets/ca8e1e6c-4e45-455a-91ce-084c0f48f43f" />
 
----
+https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
+
+https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
+
+# 🚤 Portland Pudgy Development Timeline  
 
 ## 1. Situation  
 - **What to include:**
