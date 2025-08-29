@@ -1,5 +1,5 @@
 # Portland Pudgy Project
-A project built for a boat company in Maine
+An engineering project built for a boat company in Maine
 
 https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
 
