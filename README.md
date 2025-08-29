@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
   - First I started getting familiar with RF through the NRF24L01 module seen below.
 ![IMG_3540](https://github.com/user-attachments/assets/a51ecfae-a98a-4295-b162-865e6e3f34cb)
   - Eventually through a lot of trial and error I was able to create this C++ code for one side of the code to receive the data from the other one and interpret that data with an arduino
-```
+```cpp
 #include<SPI.h>
 #include "printf.h"
 #include "RF24.h"
@@ -34,36 +34,24 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 // instantiate an object for the nRF24L01 transceiver
 RF24 radio(CE_PIN, CSN_PIN);
-
 // Let these addresses be used for the pair
 uint8_t address[][6] = { "pm117", "pc117"};
-// It is very helpful to think of an address as a path instead of as
-// an identifying device destination
-
-// to use different addresses on a pair of radios, we need a variable to
-// uniquely identify which address this radio will use to transmit
-uint8_t radioNumber = 1;  // setting to motorControl roll
-
+// It is very helpful to think of an address as a path instead of as an identifying device destination
+// to use different addresses on a pair of radios, we need a variable to uniquely identify which address this radio will use to transmit
+uint8_t radioNumber = 1; 
 String bind = address[radioNumber]; // setting up our bind address
-
 // Used to control whether this node is sending or receiving
 bool role = true;  // true = TX role, false = RX role
-
 int payload[] = { 100, 9, 9 };
-
 int switchPin = 5;
 unsigned long buttonPressStart = 0; // Cruise Control Start Time
 const unsigned long holdTime = 5000; // 5 seconds in milliseconds
 bool inCruiseMode = false; // set to manual control initially
 int cruiseLED = 2; // Cruise contro LED pin
-
 int switchPos;
-
 int LeftMotorSpeed = 1500;
 int RightMotorSpeed = 1500;
-
 int TransistorBasePin = 3;
-
 
 void setup() {
 
@@ -77,28 +65,13 @@ void setup() {
   // initialize the transceiver on the SPI bus
   if (!radio.begin()) {
     Serial.println(F("radio hardware is not responding!!"));
-    while (1) {}  // hold in infinite loop
+    while (1) {}  // hold in infinite loop to signify it's not connecting
   }
-  // To set the radioNumber via the Serial monitor on startup
-  // Serial.println(F("Which radio is this? Enter '0' or '1'. Defaults to '0'"));
-  // while (!Serial.available()) {
-  // wait for user input
-  // }
-  // char input = Serial.parseInt();
-  // radioNumber = input == 1;
-  // Serial.print(F("radioNumber = "));
-  // Serial.println((int)radioNumber);
 
-  // role variable is hardcoded to RX behavior, inform the user of this
-  // Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
-
-  // Set the PA Level low to try preventing power supply related problems
-  // because these examples are likely run with nodes in close proximity to
-  // each other.
+  // Set the PA Level low to try preventing power supply related problems because these examples are likely run with nodes in close proximity to each other.
   radio.setPALevel(RF24_PA_LOW);  // RF24_PA_MAX is default.
 
-  // save on transmission time by setting the radio to only transmit the
-  // number of bytes we need to transmit a float
+  // save on transmission time by setting the radio to only transmit the number of bytes we need to transmit a float
   radio.setPayloadSize(sizeof(payload));  // float datatype occupies 4 bytes
 
   // set the TX address of the RX node into the TX pipe
@@ -120,16 +93,14 @@ void setup() {
   // radio.printDetails();       // (smaller) function that prints raw register values
   // radio.printPrettyDetails(); // (larger) function that prints human readable data
   digitalWrite(switchPin, LOW);  // set LOW to detect HIGH signal from 
-}  // setup
+} 
 
 void loop() {
-  //delay(500);
-
   Wire.beginTransmission(JOYSTICK_ADDR);
   Wire.write(0x00);  // Register to start reading from
   Wire.endTransmission(false);
 
-  Wire.requestFrom(JOYSTICK_ADDR, 2);  // Request 2 bytes (X and Y axis data)
+  Wire.requestFrom(JOYSTICK_ADDR, 2);  // Request 2 bytes (X and Y axis data from joystick)
 
   int inputRead = digitalRead(5);
 
@@ -259,7 +230,7 @@ void loop() {
     }
   }
 
-}  // loop
+} 
 ```
 ---
 
