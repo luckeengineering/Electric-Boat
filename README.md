@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
   - First I started getting familiar with RF through the NRF24L01 module seen below.
 ![IMG_3540](https://github.com/user-attachments/assets/a51ecfae-a98a-4295-b162-865e6e3f34cb)
   - Eventually through a lot of trial and error I was able to create this C++ code for one side of the code to receive the data from the other one and interpret that data with an arduino
-`
+```
 #include<SPI.h>
 #include "printf.h"
 #include "RF24.h"
@@ -259,7 +259,8 @@ void loop() {
     }
   }
 
-}  // loop`
+}  // loop
+```
 ---
 
 ## 3. Action (Timeline of Development)  
