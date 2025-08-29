@@ -1,5 +1,5 @@
 # Portland Pudgy Project
-A project built for a company in dinghy company in Maine
+A project built for a boat company in Maine
 
 https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
 
@@ -9,19 +9,18 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ## 1. Situation  
 - **What to include:**
-  - 
-  - The origin story of the project — why it began.  
-  - The problem or challenge (e.g., waterproofing electronics in a marine environment).  
-  - Why the project mattered personally and professionally.  
-  - Context employers can relate to (“a small dinghy with a big engineering challenge”).  
+  - This all began when I went to Mike the owner of Portland Pudgy looking for an engineering internship. Instead I struck the opportunity with Mike to work on an R&D project to build out an RC electric motor kit for the boats they sell. 
+  - The opportunity here is that Currently there is no good remote control solution for turning your boat from gas powered to electric powered. This would be a unique selling point as no one has really done it yet. Also Portland Pudgy having their own unique custom electric boat motor kit would be a unique selling point compared to other electric boat motor kits like Torqueedo and ePropulsion make.
+  - This mattered to me to create as it was an exciting and meaningful project as it steered towards reducing carbon emissions from boats, but also stimulated my engineering mind to solve a project using my electrical engineering know how that I was just starting to build while in schoool. This was a task that was certainly out of my comfortzone, but a welcome challenge to really build up my engineering skillset. 
+
 
 ---
 
 ## 2. Task  
 - **What to include:**  
-  - Your objectives and goals.  
-  - Constraints you had to balance (budget, environment, safety).  
-  - How you defined success (e.g., working prototype, safe charging system).  
+  - The first task I was given was to well make the product!
+  - First I started getting familiar with RF through the NRF24L01 module seen below.
+![IMG_3540](https://github.com/user-attachments/assets/a51ecfae-a98a-4295-b162-865e6e3f34cb)
 
 ---
 
