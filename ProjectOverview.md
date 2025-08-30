@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 <p align="center">
   <img width="400" height="600" src="https://github.com/user-attachments/assets/5724b90e-cad5-4366-91d9-5db23db6739e" />
   <br>
-  <em>🛰️ Early NRF24L01 RF module prototype</em>
+  <em>🛰️ Early NRF24L01 RF module transmission testing to mimic the remote controller and motor controller</em>
 </p>
 
 <p align="center">
