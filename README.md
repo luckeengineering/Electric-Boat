@@ -15,10 +15,15 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ---
 
-### 📍 Phase 1: Concept & Research  
+### 📍 Phase 1: Research & Prototyping 
 - **Situation:**
     - The early stages where I had no real idea exactly how to build the project, but I had an idea of what compnents will be needed including: batteries to power the boat, rf connection communicate between the RC controller and motors, motors to power the boat, and a microcontroller to program it.
     - I was very much on the edge of my comfort zone where I had an idea of how to go about it, but trusted in my intuition and judgement to make it happen.
+  
+  <img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/146db013-29ac-407a-8f6c-d80745037487" /> <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cdea9f0a-501a-4db8-85cc-809eddfaf786" />
+
+  *Figure 1 and 2: a couple early stage drawings brainstorming concept designs*
+
 - **Task:**
     - First thing to do at this point is start researching previous engineering projects and parts for this project to get familiar.
 - **Action:**
@@ -45,20 +50,14 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ---
 
-## 3. Action (Timeline of Development)  
+### 📍 Phase 2: Improving Remote controler  
+- **Situation:**
+    - The original design tehcnicall speaking works, but having two throttle arms to control each motor independently was a bit cumbersome and awkward.
+- **Task:**
+    - Build a more ergonomic and easier to use remote control.
+- **Action:**
+    - Designed and sourced new parts to fit the new requirement to be one handed and still work with the arduino as a microcontroller
 
-
-- **Situation:** Describe the initial ideas and inspirations.  
-- **Task:** What you set out to figure out at this stage.  
-- **Action:** How you researched, gathered requirements, and explored design options.  
-- **Result:** Early insights that shaped your approach.  
-
----
-
-### 📍 Phase 2: Early Prototyping  
-- **Situation:** First steps moving from idea → hardware.  
-- **Task:** Building small-scale prototypes to test feasibility.  
-- **Action:** Breadboarding, wiring, experimenting with motor control, trial-and-error.  
 - **Result:** Wins (and funny failures) that taught you what works in practice.  
 
 ---
