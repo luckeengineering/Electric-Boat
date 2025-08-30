@@ -23,16 +23,25 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
     - First thing to do at this point is start researching previous engineering projects and parts for this project to get familiar.
 - **Action:**
     - I tackled the hardest problem first being the RF communcation from the remote control to the motors, solving this first would be critical as without it we can't create an RC boat.
-    - Then I created a prototype for the remote control handle to control the parallel dual motor system. Utilizing hall effect sensors to make sure the device stayed waterproof while reading the throttle angle to steer and change the speed of the boat. 
-- **Result:** Outcome was successful communication between the NRF24L01 modules and proper throttle angle readout from the sensors to the arduino nano.
-- ![IMG_2524](https://github.com/user-attachments/assets/e0d4c6be-cb89-47c0-9c64-646c80aa0120)
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/5724b90e-cad5-4366-91d9-5db23db6739e" />
 
-## 2. Task  
-  - When it comes to starting projects I like to start them like how I like to start my day by doing the hardest part first. Which in this case was figuring out the remote control part.
-  - To get myself familiar I got my hands on a pair of NRF24L01 Modules to figure out how to get them to communicate over radio frequencies.
-![IMG_3540](https://github.com/user-attachments/assets/a51ecfae-a98a-4295-b162-865e6e3f34cb)
-  - Eventually through a lot of trial and error I was able to create this C++ code for one side of the code to receive the data from the other one and interpret that data with an arduino
-  - This code below is a part of the final code for the project so there is more than just the connection setup 
+*Figure 1: Early RF module setup prototype.*
+
+- Picked out hall effect sensors for the next step
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/645d3798-d35e-4803-90d9-29e1b4695a59" />
+
+*Figure 2: soldering connector to hall effect sensor.*
+
+- Then I created a prototype for the remote control handle to control the parallel dual motor system. Utilizing hall effect sensors to make sure the device stayed waterproof while reading the throttle angle to steer and change the speed of the boat.
+- **Result:**
+- Outcome was successful communication between the NRF24L01 modules and proper throttle angle readout from the sensors to the arduino nano.
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/90030db1-d89d-4033-9084-8c4ced8c5fbc" />
+
+*Figure 3: bare bones prototype of the motor control system*
+
+- Below is the code to accomplish this communication inlcuding the code for the motor controls.
+
 ```cpp
 #include<SPI.h>
 #include "printf.h"
