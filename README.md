@@ -41,7 +41,9 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 - Then I created a prototype for the remote control handle to control the parallel dual motor system. Utilizing hall effect sensors to make sure the device stayed waterproof while reading the throttle angle to steer and change the speed of the boat.
 - **Result:**
 - Outcome was successful communication between the NRF24L01 modules and proper throttle angle readout from the sensors to the arduino nano.
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/90030db1-d89d-4033-9084-8c4ced8c5fbc" />
+
 - Later I hooked up a joystick to test an alternative control method and demonstrated both the joystick and dual throttle handles working to control two motors over RF in the two video below
 
 https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
@@ -62,15 +64,39 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 ### 📍 Phase 2: Improving Remote controler  
 - **Situation:**
-    - The original design tehcnicall speaking works, but having two throttle arms to control each motor independently was a bit cumbersome and awkward.
+    - The original design technically speaking works, but having two throttle arms to control each motor independently was a bit cumbersome and awkward.
     - The case for the ESCs, batteries and arduino to control the motors needs to be more robust and capable of charging the batteries.
 - **Task:**
     - Build a more ergonomic and easier to use remote control, and source a case with new batteries with built in charging circuitry and charge level monitoring
 - **Action:**
-    - I designed and sourced new parts to fit the new requirement for the remote control to be one handed and still work with the arduino as a microcontroller
+    - I designed and sourced new parts to fit the new requirement for the remote control to be one handed and still work with the arduino as a microcontroller.
     - Mike sourced the batteries, relay, kill switch, connectors and case for the motor controller side.
+    - Below are some images and videos of the design process for the next remote control and motor control proto pcb.
+    - 
+### Creating the motor controller prototype PCB
+*Component List*
+- NRF24L01 module for receiving signals and connected through SPI to arduino
+- Arduino Nano for transcribing NRF signal to the ESC through PWM
+- 3 pin connectors for esc connectors
+
+<img width="400" height="420" alt="image" src="https://github.com/user-attachments/assets/371bb9df-6d9b-4a8f-bad2-c567e7da3e4d" />
+
+*Figure #: Bottom side of the motor controller prototype PCB*
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/f5b638da-4478-41bf-b68f-6fb749ca5c9e" />
+
+*Figure #: Top side of the motor controller prototype PCB*
+
+### Creating the remote control with its prototype PCB
+
+<img width="621" height="684" alt="image" src="https://github.com/user-attachments/assets/d324ccda-093f-4889-819b-bed1f0170f34" />
+
+
+https://github.com/user-attachments/assets/d31b95f2-b79c-4903-aadd-2d6e29e49074
+
+
 - **Result:**
-    - Ended up with this new design for remote controller and motor controls case
+    - Ended up with this new design for remot
   <img width="1200" height="846" alt="image" src="https://github.com/user-attachments/assets/6320a5a1-b578-4c39-ad6e-a727cebe4478" />
 
 *Figure #: picture of both the RC and Motor Controls case in the lab*
