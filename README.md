@@ -51,9 +51,10 @@ https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
 https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 
+<img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/130476ad-b02b-46fd-8d14-11f9ed618ece" />
 
 
-*Figure 3: bare bones prototype of the motor control system*
+*Figure 3: bare bones prototype of the remote control system*
 
 - [Go to code file for RC controller](./RC.ino/)
 - [Go to ino file for motor controller](./Motors.ino/)
