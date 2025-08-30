@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ### ⚡ Action  
 - Experimented with **NRF24L01 modules** to set up a working RF link.  
-- Prototyped early connections and soldered **hall effect sensors** for waterproof throttle control.  
+- Prototyped early connections and soldered **hall effect sensors** for waterproofing the throttle control.  
 
 <p align="center">
   <img width="400" height="600" src="https://github.com/user-attachments/assets/5724b90e-cad5-4366-91d9-5db23db6739e" />
