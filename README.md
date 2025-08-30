@@ -42,6 +42,16 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 - **Result:**
 - Outcome was successful communication between the NRF24L01 modules and proper throttle angle readout from the sensors to the arduino nano.
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/90030db1-d89d-4033-9084-8c4ced8c5fbc" />
+- Later I hooked up a joystick to test an alternative control method and demonstrated both the joystick and dual throttle handles working to control two motors over RF in the two video below
+
+https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
+
+
+
+https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
+
+
+
 
 *Figure 3: bare bones prototype of the motor control system*
 
