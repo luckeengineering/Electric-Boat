@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
   <em>🔧 Soldering connectors to hall effect sensor</em>
 </p>
 
-- Built a **dual-throttle prototype remote control** using hall sensors for waterproof input.  
+- Built a **dual-throttle prototype remote control** using hall effect sensors for waterproof input.  
 
 <p align="center">
   <img width="400" height="400" src="https://github.com/user-attachments/assets/90030db1-d89d-4033-9084-8c4ced8c5fbc" />
