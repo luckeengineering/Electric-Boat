@@ -8,10 +8,9 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 # 🚤 Portland Pudgy Brief Overview of Development Timeline.
 
 ## 1. Where it began
-- **What to include:**
-  - This all began when I went to Mike the owner of Portland Pudgy looking for an engineering internship. Instead I struck the opportunity with Mike to work on an R&D project to build out an RC electric motor kit for the boats they sell. 
-  - The opportunity here is that Currently there is no good remote control solution for turning your boat from gas powered to electric powered. This would be a unique selling point as no one has really done it yet. Also Portland Pudgy having their own unique custom electric boat motor kit would be a unique selling point compared to other electric boat motor kits like Torqueedo and ePropulsion make.
-  - This mattered to me to create as it was an exciting and meaningful project as it steered towards reducing carbon emissions from boats, but also stimulated my engineering mind to solve a project using my electrical engineering know how that I was just starting to build while in schoool. This was a task that was certainly out of my comfortzone, but a welcome challenge to really build up my engineering skillset. 
+- This began when I went to Mike the owner of Portland Pudgy looking for an engineering internship. Instead I struck the opportunity with Mike to work on an R&D project to build out an RC electric motor kit for the boats they sell. 
+- The opportunity here is that Currently there is no good remote control solution for turning your boat from gas powered to electric powered. This would be a unique selling point as no one has really done it yet. Also Portland Pudgy having their own unique custom electric boat motor kit would be a unique selling point compared to other electric boat motor kits like Torqueedo and ePropulsion make.
+- This mattered to me to create as it was an exciting and meaningful project as it steered towards reducing carbon emissions from boats, but also stimulated my engineering mind to solve a project using my electrical engineering know how that I was just starting to build while in schoool. This was a task that was certainly out of my comfortzone, but a welcome challenge to really build up my engineering skillset. 
 
 ---
 
@@ -88,9 +87,30 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 *Figure #: Top side of the motor controller prototype PCB*
 
 ### Creating the remote control with its prototype PCB
+*Component List*
+- NRF24L01 for transmitting both motor speed data
+- Arduino Nano for programming the controls
+- USB C charging module for 3.7V LiPo battery
+- AMS1117-3.3 3.3V linear regulator to provide constant power to the NRF24L01 module from the battery.
+
 
 <img width="621" height="684" alt="image" src="https://github.com/user-attachments/assets/d324ccda-093f-4889-819b-bed1f0170f34" />
 
+*Figure #: Planning out the connections before soldering*
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/04d177e5-0afd-4dd3-af83-1b9201205a3a" />
+
+*Figure #: Planning out the physical layout*
+
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/f70ec104-527c-4565-ae15-186174d085e0" />
+
+*Figure #: Bottom side fully connected*
+
+###Testing that it powers on properly
+
+https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36
+
+###Testing if remote control 2.0 properly connects and controls motors via RF to the motor control prototype PCB
 
 https://github.com/user-attachments/assets/d31b95f2-b79c-4903-aadd-2d6e29e49074
 
