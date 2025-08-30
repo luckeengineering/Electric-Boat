@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
 
 https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
-# 🚤 Portland Pudgy Development Timeline  
+# 🚤 Portland Pudgy Brief Overview of Development Timeline.
 
 ## 1. Where it began
 - **What to include:**
@@ -47,7 +47,6 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
 
 
-
 https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 
@@ -64,14 +63,21 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 ### 📍 Phase 2: Improving Remote controler  
 - **Situation:**
     - The original design tehcnicall speaking works, but having two throttle arms to control each motor independently was a bit cumbersome and awkward.
+    - The case for the ESCs, batteries and arduino to control the motors needs to be more robust and capable of charging the batteries.
 - **Task:**
-    - Build a more ergonomic and easier to use remote control.
+    - Build a more ergonomic and easier to use remote control, and source a case with new batteries with built in charging circuitry and charge level monitoring
 - **Action:**
-    - Designed and sourced new parts to fit the new requirement to be one handed and still work with the arduino as a microcontroller
+    - I designed and sourced new parts to fit the new requirement for the remote control to be one handed and still work with the arduino as a microcontroller
+    - Mike sourced the batteries, relay, kill switch, connectors and case for the motor controller side.
+- **Result:**
+    - Ended up with this new design for remote controller and motor controls case
+  <img width="1200" height="846" alt="image" src="https://github.com/user-attachments/assets/6320a5a1-b578-4c39-ad6e-a727cebe4478" />
 
-- **Result:** Wins (and funny failures) that taught you what works in practice.  
+*Figure #: picture of both the RC and Motor Controls case in the lab*
 
----
+https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb
+
+
 
 ### 📍 Phase 3: System Integration  
 - **Situation:** Needing to connect subsystems (ESCs, batteries, thrusters, wireless).  
@@ -86,22 +92,6 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 - **Task:** Create a robust PCB to house the system.  
 - **Action:** Designing in KiCad, selecting components, handling first board spin issues.  
 - **Result:** A professional-looking board (with a few lessons learned from mistakes).  
-
----
-
-### 📍 Phase 5: Waterproofing & Field Testing  
-- **Situation:** Electronics must survive saltwater & rough handling.  
-- **Task:** Make the system marine-proof.  
-- **Action:** Testing waterproof enclosures, connectors, lanyards, wireless charging case.  
-- **Result:** Successful water tests (or dramatic failures that led to better designs).  
-
----
-
-### 📍 Phase 6: Iteration & Scaling  
-- **Situation:** Adding advanced features (e.g., regenerative charging).  
-- **Task:** Improve performance and add capabilities.  
-- **Action:** Redesigning circuits, implementing smarter firmware, revisiting system constraints.  
-- **Result:** Stronger, more capable system closer to real-world applications.  
 
 ---
 
