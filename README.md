@@ -17,12 +17,16 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ### 📍 Phase 1: Concept & Research  
 - **Situation:**
-    - The early stages where I have no real idea what the project will need for components besides batteries to power the boat, rf connection communicate between the RC controller and motors, motors to power the boat, and a microcontroller to program it. I was very much on the edge of my comfort zone where I had an idea of how to go about it, but trusted in my intuition and judgement to make it happen.
+    - The early stages where I had no real idea exactly how to build the project, but I had an idea of what compnents will be needed including: batteries to power the boat, rf connection communicate between the RC controller and motors, motors to power the boat, and a microcontroller to program it.
+    - I was very much on the edge of my comfort zone where I had an idea of how to go about it, but trusted in my intuition and judgement to make it happen.
 - **Task:**
     - First thing to do at this point is start researching previous engineering projects and parts for this project to get familiar.
 - **Action:**
     - I tackled the hardest problem first being the RF communcation from the remote control to the motors, solving this first would be critical as without it we can't create an RC boat.
-- **Result:** [Outcome, lesson, or milestone achieved]  
+    - Then I created a prototype for the remote control handle to control the parallel dual motor system. Utilizing hall effect sensors to make sure the device stayed waterproof while reading the throttle angle to steer and change the speed of the boat. 
+- **Result:** Outcome was successful communication between the NRF24L01 modules and proper throttle angle readout from the sensors to the arduino nano.
+- ![IMG_2524](https://github.com/user-attachments/assets/e0d4c6be-cb89-47c0-9c64-646c80aa0120)
+
 ## 2. Task  
   - When it comes to starting projects I like to start them like how I like to start my day by doing the hardest part first. Which in this case was figuring out the remote control part.
   - To get myself familiar I got my hands on a pair of NRF24L01 Modules to figure out how to get them to communicate over radio frequencies.
