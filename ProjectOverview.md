@@ -1,6 +1,8 @@
 # 🚤 Portland Pudgy Project  
 An engineering R&D project for **Portland Pudgy**, a boat company in Maine.  
 
+## 📹 Final project videos
+
 https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
 
 https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
@@ -63,11 +65,14 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 - Also tested a **joystick-based controller** as an alternative method.  
 
-📹 Videos:  
+📹 Videos:
 
+**Joystick + Dual Throttle Demo**  
 https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
 
+**Dual Motor RF Control Test**  
 https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
+
 
 ### ✅ Result  
 - Achieved **successful RF communication** between controller and motors.  
@@ -122,7 +127,8 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
   <em>🛠️ Remote PCB soldered + fully connected</em>
 </p>
 
-📹 [First Power-On Test](https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36)  
+**First Power-On Test**  
+https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36
 
 ### ✅ Result  
 - Built a **fully functional RC electric motor kit** for the Portland Pudgy.  
@@ -133,11 +139,15 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
   <em>🚤 Final lab setup: RC remote + motor controller cases</em>
 </p>
 
-📹 [Final Signal Test](https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb)  
+**Final Signal Test**  
+https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb
 
-📹 [Battery Range Test @ 24V](https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5)  
+**Battery Range Test @ 24V**  
+https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
+
 - Runtime: ~50 minutes at 24V  
-- Still testing performance at 12V  
+- 12V performance: still testing
+
 
 ---
 
