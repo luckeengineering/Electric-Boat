@@ -146,13 +146,29 @@ https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 - working independently under the guidance of a seasoned engineer Mike
 - soldering
 - waterproofing
-- learned about connectors, relays, charging, RF, batteries, and embedded communication protocols like I2C, SPI and PWM
-- 
+- learned about connectors, relays, charging, RF, batteries, buck and boost converters, and embedded communication protocols like I2C, SPI and PWM
+- problem solving
+- project management
+- patience (especially with the NRF24L01 modules)
+- part sourcing
+- reading datasheets more effectively
 
 ---
 
-## 5. Reflection & Next Steps  
-- **What to include:**  
+## Reflection & Next Steps  
+- Engineering is a lot of trial and error at times and can definitely test your patience, but by powering through with grit and tenacity, anything is possible.
+- I learned a lot about the importance of iteration when it comes to prototyping and testing continously. I only included a small amount of all the photos and other problems I ran into, but there were a LOT of problems I ran into. Solving those problems was very rewarding and proved to myself that I can be an engineer.
+** Next Steps **
+- Design and order the custom PCB for the remote controller to get an idea of how to go about BMS circuits at a lower voltage then try to design the bigger motor 24V BMS circuitry.
+
+** Already reverse engineering an electric lawnmower BMS circuit **
+https://github.com/user-attachments/assets/1c880cf7-097f-4a7b-8667-faa390535135
+
+** As well as a segway BMS circuit **
+<img width="461" height="880" alt="image" src="https://github.com/user-attachments/assets/c302b465-6b88-44d0-ab4b-c4b1071777ec" />
+
+
+
   - Lessons learned about engineering, iteration, and persistence.  
   - Personal growth (problem-solving, project management, creativity).  
   - How this project connects to your career ambitions (BMS, marine robotics, renewable energy).  
