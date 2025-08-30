@@ -106,47 +106,48 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 *Figure #: Bottom side fully connected*
 
-###Testing that it powers on properly
+### Testing that it powers on properly
 
 https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36
 
-###Testing if remote control 2.0 properly connects and controls motors via RF to the motor control prototype PCB
-
-https://github.com/user-attachments/assets/d31b95f2-b79c-4903-aadd-2d6e29e49074
-
 
 - **Result:**
-    - Ended up with this new design for remot
+    - Created a fully functional electric motor kit for the portland pudgy boat
+   
   <img width="1200" height="846" alt="image" src="https://github.com/user-attachments/assets/6320a5a1-b578-4c39-ad6e-a727cebe4478" />
 
 *Figure #: picture of both the RC and Motor Controls case in the lab*
 
+### Video of the final product sending correct signal to motors.
+
 https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb
 
+### Range testing batteries at 24V
+- Found that at 24V the batteries can last roughly 50min
+- Haven't tested at 12V yet
+
+https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 
 
-### 📍 Phase 3: System Integration  
-- **Situation:** Needing to connect subsystems (ESCs, batteries, thrusters, wireless).  
-- **Task:** Get everything talking together reliably.  
-- **Action:** Debugging, soldering, testing communication (e.g., NRF24L01, ESP32).  
-- **Result:** A partially functional system — first time everything “came alive.”  
+### Opportunities for improvement
+- Boat currently only works with the batteries in parallel making the motors powered at 12V. The 24V series battery hookup worked outside of water, but not in the water likely due to inrush current being too high to power through the water and cutting out the ESCs or perhaps the batteries themselves as they have short circuit protection built in.
+- Custom PCB for the remote control to improve battery power supply to NRF24L01 so it has enough constant power to remove weird stuttering in connection.
+- Custom BMS charging circuits for both the remote control and motor controls to improve power flow and get the motors to be powered at 24V for more powerful thrust in the water
 
----
+### Attempt one at custom PCB design for the motor controls. This is being changed to an ESP32 and using KiCAD instead after this attempt at a PCB schematic.
 
-### 📍 Phase 4: PCB Design & Refinement  
-- **Situation:** Prototype too messy / fragile for real use.  
-- **Task:** Create a robust PCB to house the system.  
-- **Action:** Designing in KiCad, selecting components, handling first board spin issues.  
-- **Result:** A professional-looking board (with a few lessons learned from mistakes).  
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/c509c30d-4b0e-4005-8690-64e814b384a7" />
 
----
 
-## 4. Result  
-- **What to include:**  
-  - Tangible outcomes (working RC dinghy system, battery management success).  
-  - Quantifiable performance metrics if available (runtime, charge efficiency, range).  
-  - Skills gained: circuit design, embedded programming, waterproofing, testing.  
-  - The project’s potential impact in sustainability/marine robotics.  
+## Skills Gained!
+- circuit design
+- testing
+- rapid prototyping
+- working independently under the guidance of a seasoned engineer Mike
+- soldering
+- waterproofing
+- learned about connectors, relays, charging, RF, batteries, and embedded communication protocols like I2C, SPI and PWM
+- 
 
 ---
 
