@@ -1,8 +1,9 @@
 # 🚤 Portland Pudgy Project  
 An engineering R&D project for **Portland Pudgy**, a boat company in Maine.  
 
-[![Prototype Photo](https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61)]()  
-[![Remote Control Demo](https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408)]()  
+https://github.com/user-attachments/assets/bc0ef08b-5a2e-4c46-ada0-7dc857ba6e61
+
+https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ---
 
