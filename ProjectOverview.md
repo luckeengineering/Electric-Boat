@@ -74,8 +74,8 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 - Verified **throttle angle readout** from hall sensors to Arduino.  
 - Demonstrated both joystick and throttle handle input controlling motors.  
 
-🔗 [View RC Controller Code](./RC.ino)  
-🔗 [View Motor Controller Code](./Motors.ino)  
+🔗 [View RC Controller Code](./RC.ino) - This is for the remote control transmitter
+🔗 [View Motor Controller Code](./MotorController.ino) - This is for the receiver in the battery case to control the motors via 2 ESCs
 
 ---
 
