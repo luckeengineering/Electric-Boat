@@ -7,21 +7,28 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 # 🚤 Portland Pudgy Development Timeline  
 
-## 1. Situation  
+## 1. Where it began
 - **What to include:**
   - This all began when I went to Mike the owner of Portland Pudgy looking for an engineering internship. Instead I struck the opportunity with Mike to work on an R&D project to build out an RC electric motor kit for the boats they sell. 
   - The opportunity here is that Currently there is no good remote control solution for turning your boat from gas powered to electric powered. This would be a unique selling point as no one has really done it yet. Also Portland Pudgy having their own unique custom electric boat motor kit would be a unique selling point compared to other electric boat motor kits like Torqueedo and ePropulsion make.
   - This mattered to me to create as it was an exciting and meaningful project as it steered towards reducing carbon emissions from boats, but also stimulated my engineering mind to solve a project using my electrical engineering know how that I was just starting to build while in schoool. This was a task that was certainly out of my comfortzone, but a welcome challenge to really build up my engineering skillset. 
 
-
 ---
 
+### 📍 Phase 1: Concept & Research  
+- **Situation:**
+    - The early stages where I have no real idea what the project will need for components besides batteries to power the boat, rf connection communicate between the RC controller and motors, motors to power the boat, and a microcontroller to program it. I was very much on the edge of my comfort zone where I had an idea of how to go about it, but trusted in my intuition and judgement to make it happen.
+- **Task:**
+    - First thing to do at this point is start researching previous engineering projects and parts for this project to get familiar.
+- **Action:**
+    - I tackled the hardest problem first being the RF communcation from the remote control to the motors, solving this first would be critical as without it we can't create an RC boat.
+- **Result:** [Outcome, lesson, or milestone achieved]  
 ## 2. Task  
-  - When it comes to starting projects I like to start them like how I like to start my day by eattting the frog first. Which means to do the hardest part first which in this case was figuring out the remote control problem.
+  - When it comes to starting projects I like to start them like how I like to start my day by doing the hardest part first. Which in this case was figuring out the remote control part.
   - To get myself familiar I got my hands on a pair of NRF24L01 Modules to figure out how to get them to communicate over radio frequencies.
-  - First I started getting familiar with RF through the NRF24L01 module seen below.
 ![IMG_3540](https://github.com/user-attachments/assets/a51ecfae-a98a-4295-b162-865e6e3f34cb)
   - Eventually through a lot of trial and error I was able to create this C++ code for one side of the code to receive the data from the other one and interpret that data with an arduino
+  - This code below is a part of the final code for the project so there is more than just the connection setup 
 ```cpp
 #include<SPI.h>
 #include "printf.h"
@@ -236,7 +243,7 @@ void loop() {
 
 ## 3. Action (Timeline of Development)  
 
-### 📍 Phase 1: Concept & Research  
+
 - **Situation:** Describe the initial ideas and inspirations.  
 - **Task:** What you set out to figure out at this stage.  
 - **Action:** How you researched, gathered requirements, and explored design options.  
