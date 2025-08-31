@@ -68,9 +68,11 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 📹 Videos:
 
 **Joystick Demo**  
+
 https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
 
 **Dual Motor Demo**  
+
 https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 
@@ -128,6 +130,7 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 </p>
 
 **First Power-On Test**  
+
 https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36
 
 While I focused on the **remote control design**, Mike took on the motor controller hardware side.  
@@ -146,9 +149,11 @@ Together, these efforts brought both halves of the system to life.
 </p>
 
 **Final Signal Test**  
+
 https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb
 
 **Battery Range Test @ 24V**  
+
 https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 
 - Runtime: ~50 minutes at 24V  
