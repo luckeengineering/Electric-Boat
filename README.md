@@ -158,7 +158,7 @@ https://github.com/user-attachments/assets/9eaa58ca-ce71-4e6e-a35c-d470198fcaeb
 https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 
 - Runtime: ~50 minutes at 24V  
-- 12V performance: still testing
+- 12V performance: still haven't tested
 
 
 ---
