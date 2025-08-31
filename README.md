@@ -67,10 +67,10 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 📹 Videos:
 
-**Joystick + Dual Throttle Demo**  
+**Joystick Demo**  
 https://github.com/user-attachments/assets/e939c655-a342-40a1-9173-6da3d57cf0f0
 
-**Dual Motor RF Control Test**  
+**Dual Motor Demo**  
 https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 
@@ -93,7 +93,7 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 ### 🎯 Task  
 - Build a **one-handed, ergonomic remote control**.  
-- Source a new motor controller case with integrated **relay, kill switch, and battery charging**.  
+- Source a new battery case with integrated **relay, kill switch, and battery charging**.  
 
 ### ⚡ Action  
 
