@@ -194,7 +194,7 @@ https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 - Work toward a **market-ready RC electric kit**.  
 
 ### ⚡ Reverse Engineering for BMS Design Inspiration  
-- Electric lawnmower BMS
+- Taking apart an electric lawnmower BMS
 
 https://github.com/user-attachments/assets/1c880cf7-097f-4a7b-8667-faa390535135
 
