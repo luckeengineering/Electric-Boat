@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 ### 🎯 Task  
 - Build a **one-handed, ergonomic remote control**.  
-- Source a new battery case with integrated **relay, kill switch, and battery charging**.  
+- Source a new battery case and 2 12V batteries with a BMS charging circuit built in  
 
 ### ⚡ Action  
 
