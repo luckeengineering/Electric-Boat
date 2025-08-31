@@ -134,7 +134,7 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 https://github.com/user-attachments/assets/1ca8e420-8746-4f1e-82d7-e80ea1a08b36
 
-While I focused on the **remote control design**, Mike took on the motor controller hardware side.  
+While I focused on the **remote control design**, Mike took on the battery case hardware side.  
 - **Mike’s role:** He sourced a new battery case and outfitted it with a **relay, kill switch, and battery charging circuitry**, ensuring the system was rugged and safe.  
 - **My role:** I designed and built a **one-handed, ergonomic remote control** with a custom PCB and power regulation to communicate reliably with the motors.  
 
