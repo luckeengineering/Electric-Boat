@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ### 🔎 Situation  
 - At the start, I had only a rough idea of what components would be needed:  
-  - Batteries to power the boat  
+  - 12V batteries to power the boat  
   - RF modules for remote communication  
   - Motors + ESCs for propulsion  
   - A microcontroller for programming and system integration  
