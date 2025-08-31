@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
 
 ## 1️⃣ Where It Began  
 - This project started when I approached **Mike, the owner of Portland Pudgy**, seeking an engineering internship. Instead of a traditional role, I was given the chance to work on an **R&D project**: creating a remote-controlled (RC) electric motor kit for their boats.  
-- The opportunity: there is **no widely available RC solution** to retrofit boats from gas to electric propulsion. A custom electric kit from Portland Pudgy would be a **unique selling point** compared to competitors like Torqueedo and ePropulsion.  
+- The opportunity: there is **no widely available RC solution** to retrofit boats from gas to electric propulsion. A custom electric kit from Portland Pudgy would be a **unique selling point** compared to others.  
 - Why it mattered: this project combined **sustainability (reducing carbon emissions from boats)** with a challenging hands-on build that pushed me out of my comfort zone and helped me grow my engineering skill set.  
 
 ---
