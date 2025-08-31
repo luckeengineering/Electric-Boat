@@ -146,7 +146,7 @@ Together, these efforts brought both halves of the system to completion.
 <p align="center">
   <img width="1200" height="846" src="https://github.com/user-attachments/assets/6320a5a1-b578-4c39-ad6e-a727cebe4478" />
   <br>
-  <em>🚤 Final lab setup: RC remote + motor controller cases</em>
+  <em>🚤 Final lab setup: RC remote + battery case and circuitry</em>
 </p>
 
 **Final Signal Test**  
