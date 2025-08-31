@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 
 ### 🔎 Situation  
 - The first design worked but was **awkward to use** with two throttle arms.  
-- The motor controller enclosure also needed to be **more robust**, with proper battery charging.  
+- The battery case including the motor controller also needed to be **more robust**, with proper battery charging connections.  
 
 ### 🎯 Task  
 - Build a **one-handed, ergonomic remote control**.  
