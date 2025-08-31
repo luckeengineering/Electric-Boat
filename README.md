@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/a14000be-332a-45c6-8daa-01f3b376f408
   <em>🎮 Barebones dual-throttle remote prototype</em>
 </p>
 
-- Also tested a **joystick-based controller** as an alternative method.  
+- Also tested a **joystick-based controller** as an alternative method. Which actually turned into the choice for phase 2  
 
 📹 Videos:
 
