@@ -118,12 +118,13 @@ https://github.com/user-attachments/assets/966d6bb1-3ce8-419e-9093-0f69fefe3af6
 - AMS1117-3.3 regulator for RF stability  
 
 <p align="center">
-  <img width="621" height="684" src="https://github.com/user-attachments/assets/d324ccda-093f-4889-819b-bed1f0170f34" /><br>
+  <img width="400" height="400" src="https://github.com/user-attachments/assets/04d177e5-0afd-4dd3-af83-1b9201205a3a" />
+  <img width="621" height="684" src="https://github.com/user-attachments/assets/d324ccda-093f-4889-819b-bed1f0170f34" />
+  <br>
   <em>🔌 Mapping out connections before soldering</em>
 </p>
 
 <p align="center">
-  <img width="400" height="400" src="https://github.com/user-attachments/assets/04d177e5-0afd-4dd3-af83-1b9201205a3a" />
   <img width="400" height="500" src="https://github.com/user-attachments/assets/f70ec104-527c-4565-ae15-186174d085e0" />
   <br>
   <em>🛠️ Remote PCB soldered + fully connected</em>
