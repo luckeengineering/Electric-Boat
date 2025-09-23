@@ -160,6 +160,9 @@ https://github.com/user-attachments/assets/fed265d4-b45e-4843-9327-b66bcf27dee5
 - Runtime: ~50 minutes at 24V  
 - 12V performance: still haven't tested
 
+---
+## Budgetting
+https://docs.google.com/spreadsheets/d/10n8CcRyqtXUH79LmGMbiSOwJoBKluXLzf6hZE7L_2Yk/edit?usp=sharing
 
 ---
 
